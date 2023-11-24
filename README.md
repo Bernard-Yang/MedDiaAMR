@@ -5,11 +5,9 @@
 Code for the paper "Improving medical dialogue generation with abstract meaning representations" 
 
 ### Dataset
-
+```
 ├── resources/med-dialog
-
    └── large-english-dialog-corpus		# the raw dialogue corpus
-   
           └── `train.source.txt`    
           └── `train.target.txt`       
           └── `val.source.txt` 
@@ -17,7 +15,7 @@ Code for the paper "Improving medical dialogue generation with abstract meaning 
           └── `test.source.txt` 
           └── `test.target.txt` 
     └── med_term_list.txt		# the terminology list
-
+```
     
 ### Training commands
 ```
