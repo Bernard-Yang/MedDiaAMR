@@ -2,10 +2,10 @@
 
 
 
-Code for the paper "[Improving medical dialogue generation with abstract meaning representations]([url](https://arxiv.org/abs/2309.10608))" 
+Code for the paper "[Improving medical dialogue generation with abstract meaning representations]([url])" 
 
 ### Dataset and Resources
-The dataset is from [https://github.com/tangg555/meddialog]([url](https://github.com/tangg555/meddialog))
+The dataset is from [https://github.com/tangg555/meddialog]([url])
 
 The structure of raw dataset should be like this:
 ```
@@ -17,7 +17,7 @@ The structure of raw dataset should be like this:
        └── `test.source.txt` 
        └── `test.target.txt` 
 ```
-To get the AMR graph (.concept and .path files) of each sentence, you can follow the preprocess in [https://github.com/Soistesimmer/AMR-multiview]([url](https://github.com/Soistesimmer/AMR-multiview))
+To get the AMR graph (.concept and .path files) of each sentence, you can follow the preprocess in [https://github.com/Soistesimmer/AMR-multiview]([url])
 
 The structure of final dataset should be like this:
 ```
