@@ -2,28 +2,46 @@
 
 
 
-Code for the paper "Improving medical dialogue generation with abstract meaning representations" 
+Code for the paper "[Improving medical dialogue generation with abstract meaning representations]([url](https://arxiv.org/abs/2309.10608))" 
 
-### Dataset
+### Dataset and Resources
+The dataset is from [https://github.com/tangg555/meddialog]([url](https://github.com/tangg555/meddialog))
+
+The structure of raw dataset should be like this:
 ```
-├── resources/med-dialog
-   └── large-english-dialog-corpus		# the raw dialogue corpus
-          └── `train.source.txt`    
-          └── `train.target.txt`       
-          └── `val.source.txt` 
-          └── `val.target.txt` 
-          └── `test.source.txt` 
-          └── `test.target.txt` 
-    └── med_term_list.txt		# the terminology list
+├── dataset
+       └── `train.source.txt`    
+       └── `train.target.txt`       
+       └── `val.source.txt` 
+       └── `val.target.txt` 
+       └── `test.source.txt` 
+       └── `test.target.txt` 
 ```
-    
+To get the AMR graph (.concept and .path files) of each sentence, you can follow the preprocess in [https://github.com/Soistesimmer/AMR-multiview]([url](https://github.com/Soistesimmer/AMR-multiview))
+
+The structure of final dataset should be like this:
+```
+├── dataset
+       └── `train.source.txt`
+       └── `train.source.concept`
+       └── `train.source.path`
+       └── `train.target.txt`       
+       └── `val.source.txt`
+       └── `val.source.concept`
+       └── `val.source.path`
+       └── `val.target.txt` 
+       └── `test.source.txt`
+       └── `test.source.concept`
+       └── `test.source.path`
+       └── `test.target.txt` 
+```
+### Preprocessing commands
+```
+bash preprocess.sh
+```
 ### Training commands
 ```
-python Training.py --datasets [dd, personachat]
-```
-### Evaluation commands
-```
-python Evaluation.py --datasets [dd, personachat]
+bash run-dual.sh
 ```
 
 ### Citation
