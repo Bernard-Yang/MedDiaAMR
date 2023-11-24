@@ -7,7 +7,9 @@ Code for the paper "Improving medical dialogue generation with abstract meaning 
 ### Dataset
 
 ├── resources/med-dialog
+
    └── large-english-dialog-corpus		# the raw dialogue corpus
+   
           └── `train.source.txt`    
           └── `train.target.txt`       
           └── `val.source.txt` 
