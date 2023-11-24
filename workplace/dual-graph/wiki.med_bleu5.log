@@ -1,5 +1,0 @@
-!!Existing checkpoint. Loading...
-Initial accuracy 0.2926
-Loading data and making batches
-Num training examples = 10827
-iter: <built-in function iter>, lr:0.00010  VAL loss: 4.5505 accu: 0.2926
