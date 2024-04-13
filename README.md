@@ -5,7 +5,7 @@
 Code for the paper "[Improving medical dialogue generation with abstract meaning representations]([url])" 
 
 ### Dataset and Resources
-The dataset is from [https://github.com/tangg555/meddialog]([url])
+The dataset is from [https://github.com/tangg555/meddialog]([[url](https://github.com/tangg555/meddialog)])
 
 The structure of raw dataset should be like this:
 ```
