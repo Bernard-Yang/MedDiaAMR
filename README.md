@@ -2,7 +2,7 @@
 
 
 
-Code for the paper "[Improving medical dialogue generation with abstract meaning representations](Improving medical dialogue generation with abstract meaning representations)" 
+Code for the paper "[Improving medical dialogue generation with abstract meaning representations](https://ieeexplore.ieee.org/abstract/document/10447688)" 
 
 ### Dataset and Resources
 The dataset is from [https://github.com/tangg555/meddialog]([[url]])
