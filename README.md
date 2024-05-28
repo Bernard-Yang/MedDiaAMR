@@ -5,7 +5,7 @@
 Code for the paper "[Improving medical dialogue generation with abstract meaning representations](https://ieeexplore.ieee.org/abstract/document/10447688)" 
 
 ### Dataset and Resources
-The dataset is from [https://github.com/tangg555/meddialog]([[url]])
+The dataset is from [https://github.com/tangg555/meddialog](https://ieeexplore.ieee.org/abstract/document/10447688)
 
 The structure of raw dataset should be like this:
 ```
@@ -17,7 +17,7 @@ The structure of raw dataset should be like this:
        └── `test.source.txt` 
        └── `test.target.txt` 
 ```
-To get the AMR graph (.concept and .path files) of each sentence, you can follow the preprocess in [https://github.com/Soistesimmer/AMR-multiview]([https://github.com/Soistesimmer/AMR-multiview])
+To get the AMR graph (.concept and .path files) of each sentence, you can follow the preprocess in [https://github.com/Soistesimmer/AMR-multiview](https://github.com/Soistesimmer/AMR-multiview)
 
 The structure of final dataset should be like this:
 ```
